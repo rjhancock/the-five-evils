@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+  <title>The Five Evils</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: row;
+      flex-flow: wrap;
+      gap: 0.5rem 1rem;
+      max-width: 960px;
+      margin: 1rem auto;
+      background-color: beige;
+      justify-content: space-around;
+      flex: 1;
+    }
+
+    div.header {
+      text-align: center;
+      flex-grow: 1;
+      flex-basis: auto;
+      width: 100%;
+    }
+
+    div.body {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      column-count: 3;
+    }
+
+    div.body>div {
+      flex: 1;
+      flex-basis: 33%;
+      text-align: center;
+      border: 1px solid black;
+    }
+
+    h4.section-header {
+      text-transform: uppercase;
+      color: red;
+      text-decoration: underline;
+      margin-top: 0.5rem;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <hr />
+    <h1>Looking For <em>Crusaders</em></h1>
+    <h2>To Attack the 5 Evils:</h2>
+    <h3>Jobs, Banks, Credit Cards, Insurance Companies, Pawn
+    </h3>
+  </div>
+  <div class="body">
+    <!-- Problem Row -->
+    <div class="left">
+      <h4 class="section-header">Banks</h4>
+    </div>
+    <div class="center">
+      <h4 class="section-header">Our Mission</h4>
+    </div>
+    <div class="right">
+      <h4 class="section-header">Credit Cards</h4>
+    </div>
+
+    <!-- Separator Row -->
+    <div class="left">
+      Left
+    </div>
+    <div class="center">
+      center
+    </div>
+    <div class="right">
+      right
+    </div>
+
+    <!-- Solution Row -->
+    <div class="left">
+      Left
+    </div>
+    <div class="center">
+      center
+    </div>
+    <div class="right">
+      right
+    </div>
+
+    <!-- Term Row -->
+    <div class="left">
+      <strong>Learn How Money Works</strong>
+    </div>
+    <div class="center">
+      <strong>Override Your Team</strong>
+    </div>
+    <div class="right">
+      <strong>Buy Term & Invest</strong>
+    </div>
+</body>
+
+</html>
